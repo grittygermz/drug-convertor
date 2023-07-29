@@ -41,11 +41,12 @@ function App() {
         )
         setHasChooseConc(true)
       } else {
+        setHasChooseConc(false)
         setDrugConc(selectedDrug[0].concIn_mg_per_mL)
       }
     }
 
-    if (weight != null && weight !== '' && drugConc !== 0) {
+    if (weight != null && weight !== '' && drugConc != null) {
       // console.log(weight)
       const vol = weight / drugConc
       // console.log(vol)
