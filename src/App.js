@@ -63,11 +63,18 @@ function App() {
     // handleRequest()
   }
 
-  const handleDrugInput = (drugName) => {
-    // console.log(drugName)
+  const handleDrugInput2 = (drugName) => {
+    console.log(drugName)
     setDrug(drugName)
     // handleRequest()
   }
+
+  const handleDrugInput = (drugName) => {
+    console.log(drugName)
+    setDrug(drugName)
+    // handleRequest()
+  }
+
 
   const handleDropdownSelect = (chosenOption) => {
     // console.log(chosenOption)
@@ -81,11 +88,14 @@ function App() {
         <label id='children'>
           <span id='children'>drug name:</span>
           <TextInput
-            requestOnlyIfNoOptions={false}
+            Component={'input'}
             trigger={''}
-            onRequestOptions={handleDrugInput}
             options={availableOptions}
             spacer={''}
+
+            // requestOnlyIfNoOptions={false}
+            // onRequestOptions={handleDrugInput}
+            onSelect={handleDrugInput2}
           />
         </label>
 
