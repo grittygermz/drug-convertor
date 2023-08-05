@@ -110,6 +110,7 @@ function App() {
 
   const clearInput = () => {
     setWeight('')
+    setDrug('')
   }
 
 
@@ -131,7 +132,7 @@ function App() {
               value={drug}
               className="inputBox"
               />
-            <button onClick={() => setDrug('')}>x</button>
+            <button onClick={clearInput}>x</button>
           </label>
 
         {drugConc && <p>concentration: {formatDrugConcentration()} </p>}
@@ -149,7 +150,7 @@ function App() {
         <label id='children'>
           <span id='children'>dose(mg):</span>
           <input type='text' onChange={handleChange} value={weight} className="inputBox"/>
-          <button onClick={clearInput}>x</button>
+          <button onClick={() => setWeight('')}>x</button>
         </label>
 
         {result && (<div className="resultContainer">

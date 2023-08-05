@@ -54,13 +54,15 @@
   border-width: 2px;
   box-shadow: 2px 2px gray;
   width: 30%;
+  min-width: 250px;
   align-items: center;
 }
 
 #children {
   margin: 10px;
   width: 70%;
-  /* background-color: #61dafb; */
+  min-width: 280px;
+  background-color: #61dafb;
   text-align: center;
 
 }
@@ -74,6 +76,7 @@
 
 .inputBox {
   width: 50%;
+  min-width: 120px;
 
 }
 
