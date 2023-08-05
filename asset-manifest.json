@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/drug-convertor/static/css/main.f7260d34.css",
-    "main.js": "/drug-convertor/static/js/main.ac7ac942.js",
+    "main.css": "/drug-convertor/static/css/main.fd604660.css",
+    "main.js": "/drug-convertor/static/js/main.d4a47fac.js",
     "index.html": "/drug-convertor/index.html",
-    "main.f7260d34.css.map": "/drug-convertor/static/css/main.f7260d34.css.map",
-    "main.ac7ac942.js.map": "/drug-convertor/static/js/main.ac7ac942.js.map"
+    "main.fd604660.css.map": "/drug-convertor/static/css/main.fd604660.css.map",
+    "main.d4a47fac.js.map": "/drug-convertor/static/js/main.d4a47fac.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7260d34.css",
-    "static/js/main.ac7ac942.js"
+    "static/css/main.fd604660.css",
+    "static/js/main.d4a47fac.js"
   ]
 }
