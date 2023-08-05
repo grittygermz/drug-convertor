@@ -53,21 +53,34 @@
   border-radius: 10px;
   border-width: 2px;
   box-shadow: 2px 2px gray;
+  width: 30%;
+  align-items: center;
 }
 
 #children {
   margin: 10px;
+  width: 70%;
+  /* background-color: #61dafb; */
+  text-align: center;
+
 }
 
 .resultContainer {
   display: flex;
   justify-content: center;
+  width: 50%;
+  /* background-color: #61dafb; */
+}
+
+.inputBox {
+  width: 50%;
+
 }
 
 #result {
   background-color: yellowgreen;
   padding: 5px;
-  width: 40px;
+  width: 90px;
   text-align: center;
   border-radius: 3px;
   border-width: 1px;
